@@ -123,8 +123,7 @@ De maneira ainda mais acentuada, profissionais em regime remoto apresentam baix�
 
 Diante desses dados, é possível inferir que apenas os profissionais já atuantes em regime presencial — e que, portanto, já possuem familiaridade e possível preferência por esse formato — demonstram uma intenção clara de permanecer nesse modelo de trabalho.
 
-<a name="ref-figura1"></a>
-<a href="figures/fig1.png">
+<a href="figures/fig1.png" id="ref-figura1">
   <img src="figures/fig1.png" alt="Figura 1: Taxa de aceite ao retorno presencial." width="700"/>
 </a>
 
