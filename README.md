@@ -3,7 +3,7 @@
 
 ## Sobre o Projeto
 
-Este projeto foi desenvolvido como parte da participação no **Challenge State of Data 2024-2025**, promovido pela **Data Hackers** em 2025.
+Este [projeto](https://www.kaggle.com/code/claytonsds/empresas-desafios-da-retomada-ao-presencial) foi desenvolvido como parte da participação no **Challenge State of Data 2024-2025**, promovido pela **Data Hackers** em 2025.
 
 O desafio consistiu na elaboração de um estudo de caso a partir de um dataset contendo **8 questionários** com informações sobre profissionais do setor de tecnologia, coletadas entre 2024 e 2025.
 
