@@ -1,5 +1,4 @@
 ##
-<a id="top"></a>
 ![banner](figures/cover.png)
 
 ## Sobre o Projeto
@@ -25,7 +24,7 @@ Nosso projeto abordou o desafio do **retorno ao trabalho presencial**, sob a per
 
 Além disso, desenvolvemos uma [ferramenta de Machine Learning](#modelo-de-classificação-ia) capaz de classificar, com base nos dados de um ou mais candidatos, a **aceitação ou não do retorno ao trabalho presencial**.
 
-
+<a id="top"></a>
 ##  Sumário
 * [Cálculo da Probabilidade Condicional](#cálculo-da-probabilidade-condicional)
 * [Introdução](#introdução)
@@ -278,7 +277,7 @@ Em conclusão, uma empresa que esteja buscando pessoas que tenham uma propensão
 ### Modelo de Classificação (IA)
 Conforme explicitado durante a análise estatística, o dataset "State of Data Brazil 2024-2025" apresenta variáveis que podem ser utilizadas como features para o treinamento de um modelo de classificação baseado em redes neurais. O objetivo é prever se, dado o histórico de um ou mais candidatos, eles possuem predisposição para aceitar ou não um emprego no formato presencial.
 
-Essa sensibilidade do modelo pode auxiliar tomadores de decisão e recrutadores de RH a ampliar suas buscas por candidatos — não apenas entre aqueles que já atuam em formato presencial (os quais, conforme a análise da [`Figura 1`](#figura-1), apresentam maior tendência a aceitar o retorno ao trabalho presencial) — mas também entre aqueles que, embora atualmente estejam em modelos flexíveis, como híbrido ou remoto, possam ter propensão a aceitar um regime presencial.
+Essa sensibilidade do modelo pode auxiliar tomadores de decisão e recrutadores de RH a ampliar suas buscas por candidatos — não apenas entre aqueles que já atuam em formato presencial (os quais, conforme a análise da [`Figura 1`](#ref-figura1), apresentam maior tendência a aceitar o retorno ao trabalho presencial) — mas também entre aqueles que, embora atualmente estejam em modelos flexíveis, como híbrido ou remoto, possam ter propensão a aceitar um regime presencial.
 
 ####  Arquitetura do Modelo
 
