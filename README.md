@@ -5,7 +5,7 @@
 
 Este projeto foi desenvolvido no formato de [notebook](https://github.com/ClaytonSdS/DataHackers2025/blob/main/empresas-desafios-da-retomada-ao-presencial.ipynb), como parte da participação no **Challenge State of Data 2024-2025**, promovido pela **Data Hackers**.
 
-Ele também está disponível na plataforma Kaggle: [Empresas - Desafios da Retomada ao Presencial](https://www.kaggle.com/code/claytonsds/empresas-desafios-da-retomada-ao-presencial).
+Este projeto também está disponível na plataforma Kaggle: [Empresas - Desafios da Retomada ao Presencial](https://www.kaggle.com/code/claytonsds/empresas-desafios-da-retomada-ao-presencial).
 
 O desafio consistiu na elaboração de um estudo de caso a partir de um dataset contendo **8 questionários** com informações sobre profissionais do setor de tecnologia, coletadas entre 2024 e 2025.
 
