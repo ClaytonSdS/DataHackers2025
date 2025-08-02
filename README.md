@@ -128,6 +128,7 @@ Diante desses dados, é possível inferir que apenas os profissionais já atuant
   <img src="figures/fig1.png" alt="Figura 1: Taxa de aceite ao retorno presencial." width="700"/>
 </a>
 
+<a id="ref-figura2"></a>
 Além disso, conforme evidenciado na [`Figura 2`](#ref-figura2), o fato de a pessoa estar empregada ou não, impacta diretamente nas chances de recusa ao retorno presencial. 
 
 Isso porque, como mostra a figura, profissionais atualmente empregados demonstram maior resistência ao retorno obrigatório, o que sugere que a estabilidade no emprego lhes confere maior poder de escolha quanto ao formato de trabalho desejado.
@@ -144,6 +145,7 @@ Mesmo entre as pessoas que optaram por não informar seu status profissional, ai
 [↑ Top](#top)
 
 ### Setor de Atuação
+<a id="ref-figura3"></a>
 Para investigar se o setor de atuação exerce influência sobre a aceitação do retorno ao trabalho presencial integral, analisou-se a probabilidade de rejeição condicional ao setor de atuação (P[Rejeição | Setor]) para cada segmento presente no conjunto de dados.
 
 Os resultados, conforme indicado na [`Figura 3`](#ref-figura3), demonstram que o setor de atuação influencia significativamente essa probabilidade. Setores tradicionalmente associados à tecnologia, como Tecnologia/Fábrica de Software, Internet/Ecommerce e Telecomunicação, apresentam as maiores taxas de rejeição. Em contraste, setores como o Setor Público, Agronegócio e Construção Civil demonstram menor resistência ao retorno presencial, indicando maior disposição dos profissionais desses segmentos em adotar esse modelo.
@@ -165,6 +167,7 @@ Para a análise de correlação, estudou-se a relação entre as variáveis idad
 
 O primeiro estudo analisou a relação entre as variáveis *Idade* e *Probabilidade de Rejeição*. Conforme ilustrado na [`Figura 4`](#ref-figura4), a idade não se mostra um fator determinante para explicar essa probabilidade. Isso é evidenciado pelos coeficientes de determinação (R²) obtidos nos modelos polinomiais de 1º e 2º grau, que foram de 0,13 e 0,29, respectivamente. Tais valores indicam que a idade, isoladamente, apresenta baixo poder explicativo sobre a rejeição de um profissional.
 
+<a id="ref-figura4"></a>
 O fato de a idade não ser determinante, ou seja, de haver consenso entre diferentes faixas etárias sobre a temática, é corroborado por uma pesquisa publicada na *Harvard Business Review* em 2023 [[2](#ref-2)]. Onde a pesquisa revela que aproximadamente 21% dos trabalhadores estão dispostos a aceitar uma redução salarial superior a 10% para continuar trabalhando remotamente. Esses dados indicam que a preferência por modelos de trabalho remoto ou híbrido transcende faixas etárias, sugerindo que a idade não é um fator determinante na escolha do modelo de trabalho.
 
 <a name="ref-figura4"></a>
@@ -176,6 +179,7 @@ Por conseguinte, para avaliar e responder à pergunta de que a faixa salarial ta
 
 Conforme pode ser observado na [`Figura 5`](#ref-figura5), a faixa salarial possui alto poder explicativo sobre a variável preditora da probabilidade de rejeição. Isso é evidenciado pelos coeficientes de determinação nos modelos polinomiais P₁ e P₂, que apresentam valores de 0.45 e 0.77, respectivamente.
 
+<a id="ref-figura5"></a>
 Portanto, considerando o modelo de regressão do polinômio P₂, aproximadamente 77% da variabilidade dos dados pode ser explicada por essa variável (faixa salarial). Esse valor indica uma forte correlação entre as variáveis.
 
 <a name="ref-figura5"></a>
@@ -191,8 +195,10 @@ A próxima linha de análise concentrou seu foco na dimensão geográfica, busca
 
 Dito isso, conforme podemos observar na [`Figura 6`](#ref-figura6) e [`Figura 7`](#ref-figura7), que relaciona a região com a probabilidade de rejeição, as regiões mais ao Norte do país apresentam uma menor tendência à rejeição do trabalho presencial. Esse dado está alinhado com o estudo conduzido pelo IBRE/FGV (2021) [[1](#ref-1)], que revelou que as regiões Norte e Nordeste apresentam as menores taxas de adoção ao home office, com 21.2% e 21.9%, respectivamente.
 
+<a id="ref-figura6"></a>
 Além disso, destaca-se que a região Centro-Oeste registrou a menor probabilidade de rejeição sobre o retorno ao modelo presencial, com aproximadamente 56.32%.
 
+<a id="ref-figura7"></a>
 <a name="ref-figura6"></a>
 <a href="figures/fig6.png">
   <img src="figures/fig6.png" alt="Figura 6: Analise da rejeição por região." width="700"/>
@@ -208,6 +214,7 @@ Com base nessas informações, torna-se possível identificar as regiões com ma
 
 Dito isso, conforme podemos visualizar na [`Figura 8`](#ref-figura8), as regiões com as maiores taxas de permanência — e, consequentemente, menor propensão à migração — são, respectivamente, o Sul (90,27%) e o Sudeste (93,79%). Em contrapartida, as regiões com as menores taxas de permanência são o Nordeste, o Centro-Oeste e o Norte, que, como discutido anteriormente na [`Figura 6`](ref-figura6) e [`Figura 7`](#ref-figura7), também apresentam as menores probabilidades de rejeição ao modelo presencial.
 
+<a id="ref-figura8"></a>
 Esses dados indicam que as regiões mais ao Norte do país não apenas demonstram maior disposição para o retorno ao trabalho presencial, mas também maior abertura para migração entre regiões, caso as condições sejam favoráveis. Isso é evidenciado pelo fato de que, na região Norte, apenas 46,67% dos profissionais continuam residindo em seu estado de origem, revelando uma significativa mobilidade geográfica.
 
 <a name="ref-figura8"></a>
@@ -219,7 +226,10 @@ Esses dados indicam que as regiões mais ao Norte do país não apenas demonstra
 
 ### Análise de Preferências
 
-Uma vez em posse das informações extraídas nas seções anteriores — como a análise da tendência ao retorno presencial com base no status atual de trabalho, a avaliação por setor de atuação, o estudo da correlação entre variáveis relevantes e a análise geográfica relacionada à rejeição do modelo presencial e aos fluxos migratórios —, uma última dimensão se mostra essencial: o entendimento dos critérios dos entrevistados que eles consideram importantes na escolha de uma oportunidade de trabalho. Essa análise é de grande relevância, pois ajuda a responder à seguinte questão: uma vez identificada a região ideal para a busca de mão de obra, quais benefícios devem ser oferecidos por uma empresa para maximizar as chances de aceitação da proposta? Com isso, torna-se possível enfrentar o desafio da baixa adesão ao modelo presencial em determinadas regiões ou organizações.
+Uma vez em posse das informações extraídas nas seções anteriores — como a análise da tendência ao retorno presencial com base no status atual de trabalho, a avaliação por setor de atuação, o estudo da correlação entre variáveis relevantes e a análise geográfica relacionada à rejeição do modelo presencial e aos fluxos migratórios —, uma última dimensão se mostra essencial: o entendimento dos critérios dos entrevistados que eles consideram importantes na escolha de uma oportunidade de trabalho. 
+
+<a id="ref-figura9"></a>
+Essa análise é de grande relevância, pois ajuda a responder à seguinte questão: uma vez identificada a região ideal para a busca de mão de obra, quais benefícios devem ser oferecidos por uma empresa para maximizar as chances de aceitação da proposta? Com isso, torna-se possível enfrentar o desafio da baixa adesão ao modelo presencial em determinadas regiões ou organizações.
 
 <a name="ref-figura9"></a>
 <a href="figures/fig9.png">
@@ -236,6 +246,7 @@ Além disso, os achados indicam que elementos como o clima organizacional ou o p
 
 Para a análise dos entrevistados e a validação de uma possível influência do nível de atuação profissional — i.e., "Júnior", "Pleno" ou "Sênior" — na rejeição ao modelo presencial, é fundamental compreender o perfil etário da amostra.
 
+<a id="ref-figura10"></a>
 Conforme podemos observar no histograma da [`Figura 10`](#ref-figura10), a distribuição etária dos participantes revela uma predominância de profissionais jovens, com idades concentradas majoritariamente entre 25 e 35 anos. Isso indica que os dados e os insights extraídos representam, em grande parte, as tendências e preferências da geração atual — e possivelmente da próxima — de candidatos no mercado de trabalho.
 
 <a name="ref-figura10"></a>
@@ -246,8 +257,10 @@ Conforme podemos observar no histograma da [`Figura 10`](#ref-figura10), a distr
 
 Conforme podemos visualizar pela [`Figura 10`](#ref-figura10), as pessoas que estão em situação de trabalho ocupando algum nível, estão concentradas na região de 25 a 35 anos, por conseguinte, com base na [`Figura 11`](#ref-figura11) que faz um empilhamento dos niveis em relação a cada idade presente no dataset, podemos visualizar que durante essa faixa etária, os individuos estão em sua maioria em niveis intermediarios como Pleno ou superior Senior.
 
+<a id="ref-figura11"></a>
 Da mesma forma, conforme podemos visualizar na [`Figura 12`](#ref-figura12) tais individious, i.e., Plenos e Sêniors, possuem uma alta probabilidade de rejeição ao retorno presencial em relação ao retorno presencial.
 
+<a id="ref-figura12"></a>
 <a name="ref-figura11"></a>
 <a href="figures/fig11.png">
   <img src="figures/fig11.png" alt="Figura 11: Distribuição percentual dos níveis por idade." width="700"/>
@@ -292,6 +305,7 @@ Essa sensibilidade do modelo pode auxiliar tomadores de decisão e recrutadores 
 | Número de épocas          | 15                        |
 
 #### Validação dos Resultados
+<a id="ref-figura13_14"></a>
 Os resultados que mostram o histórico de treinamento do modelo ao longo das épocas podem ser visualizados na [`Figura 13`](#ref-figura13_14), que apresenta a relação entre acurácia e épocas, e na [`Figura 14`](#ref-figura13_14), que exibe a evolução da perda de validação ao longo das iterações.
 
 <a name="ref-figura13_14"></a>
@@ -310,6 +324,7 @@ Os resultados que mostram o histórico de treinamento do modelo ao longo das ép
 | Macro Average     | 0.7628    | 0.7624 | 0.7623   | 2382    |
 | Weighted Average  | 0.7628    | 0.7624 | 0.7623   | 2382    |
 
+<a id="ref-figura15"></a>
 O modelo foi avaliado em um conjunto de **2.382 amostras**, classificando entre duas categorias: "**Não Aceita**" e "**Aceita**" o retorno ao trabalho presencial. Os principais resultados foram:
 
 **Acurácia geral:** **76.24%** – o modelo acertou aproximadamente 77% das previsões.
